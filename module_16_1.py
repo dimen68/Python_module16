@@ -1,7 +1,9 @@
 # Задача "Начало пути"
-# Запуск сервера - uvicorn module_16_1:app --reload
-# http://127.0.0.1:8000/
-#
+# Запуск сервера - uvicorn module_16_1:app --reload --port=8161
+# http://127.0.0.1:8161/
+# http://127.0.0.1:8161/docs
+# http://127.0.0.1:8161/redoc
+
 
 from fastapi import FastAPI
 from pydantic import BaseModel
